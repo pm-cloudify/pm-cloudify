@@ -26,7 +26,7 @@ jobs:
         id: detect-package-manager
         run: |
           echo "manager=pnpm" >> $GITHUB_OUTPUT
-          echo "command=ci" >> $GITHUB_OUTPUT
+          echo "command=install" >> $GITHUB_OUTPUT
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
