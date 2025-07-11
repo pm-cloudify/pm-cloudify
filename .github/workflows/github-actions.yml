@@ -1,0 +1,8 @@
+name: Build and Deploy to Github Pages
+on: push
+jobs:
+  Build-Pages:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+    
