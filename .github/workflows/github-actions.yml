@@ -40,12 +40,10 @@ jobs:
           static_site_generator: nuxt
       - name: Restore cache
         uses: actions/cache@v4
-        with:
-          path: dist
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+        run: pnpm i
+      - name: Generate static files
+        run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
