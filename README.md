@@ -1,5 +1,5 @@
-# pm-cloudify
+# Vue 3 + Vite
 
-This page is about this organization.
-I have created to mainly practice my SRE/Devops skills along side software developments. <br>
-also an answer to the practice <a href="https://roadmap.sh/projects/github-actions-deployment-workflow">CI/CD with Github actions</a>
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
