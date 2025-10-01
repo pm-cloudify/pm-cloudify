@@ -50,6 +50,3 @@ jobs:
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Check Url
-        run: |
-          echo "$steps.deployment.outputs.page_url"
