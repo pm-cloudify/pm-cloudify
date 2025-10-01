@@ -1,12 +1,16 @@
-<script setup></script>
-
 <template>
   <!-- main container -->
   <div class="main-container">
-    <aside></aside>
-    <main></main>
+    <TheAside></TheAside>
+    <main>
+      <router-view></router-view>
+    </main>
   </div>
 </template>
+
+<script setup>
+import TheAside from './components/aside/TheAside.vue'
+</script>
 
 <style lang="scss" scoped>
 .main-container {
